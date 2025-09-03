@@ -170,12 +170,9 @@ const Input = ({ placeholder, type = "text" }) => (
 
 const HomePage = ({ onNavigate }) => (
   <div>
-    <div className="relative h-48 bg-teal-800 rounded-xl mb-6 overflow-hidden">
-      <img src="https://placehold.co/600x400/0F766E/FFFFFF?text=Muurrbuy&font=lora" className="absolute inset-0 w-full h-full object-cover opacity-30" alt="Cultural pattern" />
-      <div className="relative h-full flex flex-col justify-center items-center text-white p-4 text-center">
-        <h1 className="text-4xl font-bold">Gumbaynggirr<br />Connect</h1>
-        <p className="text-lg mt-1">Language & Culture Co-operative</p>
-      </div>
+    <div className="relative h-48 bg-teal-800 rounded-xl mb-6 flex flex-col justify-center items-center text-white p-4 text-center">
+      <h1 className="text-4xl font-bold">Muurrbuy</h1>
+      <p className="text-lg mt-1">Language & Culture Co-operative</p>
     </div>
     
     <Card>
