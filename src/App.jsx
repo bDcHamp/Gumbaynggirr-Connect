@@ -171,7 +171,7 @@ const Input = ({ placeholder, type = "text" }) => (
 const HomePage = ({ onNavigate }) => (
   <div>
     <div className="relative h-48 bg-teal-800 rounded-xl mb-6 flex flex-col justify-center items-center text-white p-4 text-center">
-      <h1 className="text-4xl font-bold">Muurrbuy</h1>
+      <h1 className="text-4xl font-bold">Gumbaynggirr<br />Connect</h1>
       <p className="text-lg mt-1">Language & Culture Co-operative</p>
     </div>
     
